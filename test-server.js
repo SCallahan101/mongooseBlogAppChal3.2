@@ -107,7 +107,7 @@ describe('Blog Posts API resource', function() {
   });
   describe('POST endpoint', function() {
     it('should add a new blog post', function() {
-      const newTestBlogPost = generateBlogPosts():
+      const newTestBlogPost = generateBlogPosts();
       return chai.request(app);
       .post('/posts')
       .send(newTestBlogPost)
